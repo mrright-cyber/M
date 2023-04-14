@@ -14,10 +14,11 @@ server = flask.Flask(__name__)
 # 食用方法
 # 0. 容器内执行
 # 1. pip3 install flask -i https://mirrors.ustc.edu.cn/pypi/web/simple
-# 2. pm2 start signapi.py -x --interpreter python3
-# 3. curl http://127.0.0.1:17840/sign ，确定sign正常运行，有结果输出
-# 4. 添加变量 export M_API_SCAN_SIGN_URL="http://127.0.0.1:17840/sign"
-# 5. 查看日志 pm2 log signapi
+# 2. 进入到signapi存放的目录，在脚本所在文件 cd /root/data/docker_data/ql-jh1/scripts/mrright-cyber_M
+# 3. pm2 start signapi.py -x --interpreter python3
+# 4. curl http://127.0.0.1:17840/sign ，确定sign正常运行，有结果输出
+# 5. 添加变量 export M_API_SCAN_SIGN_URL="http://127.0.0.1:17840/sign"
+# 6. 查看日志 pm2 log signapi
 
 
 def bytes2bin(bytes):
@@ -211,4 +212,4 @@ def sign():
 
 
 if __name__ == '__main__':
-    server.run(host='0.0.0.0', port=17840)
+    server.run(host='0.0.0.0', port=17850)
