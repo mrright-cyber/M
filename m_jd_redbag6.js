@@ -25,6 +25,6 @@ const headers = {
         $.log(data)}
     
 };
-$.run({whitelist: ["1-7"]}).then(value => {
+$.run({whitelist: ["1-20"]}).then(value => {
 }).catch(reason => {
 })
