@@ -1,8 +1,8 @@
 /*
-活动连接：https://jinggeng-isv.isvjcloud.com/ql/front/showInviteJoin?id=9e80809282a4bdc90182ab254c7e0a12&user_id=1000121005
-活动id:id
-店铺id:user_id
-变量:M_JINGGENG_INVITE_URL
+//活动连接：https://jinggeng-isv.isvjcloud.com/ql/front/showInviteJoin?id=9e80809282a4bdc90182ab254c7e0a12&user_id=1000121005
+//活动id:id
+//店铺id:user_id
+//变量:M_JINGGENG_INVITE_URL
 [task_local]
 # M邀请有礼JINGGENG
 1 1 1 1 1  m_jd_wx_showInviteJoin.js, tag=M邀请有礼JINGGENG, enabled=true
