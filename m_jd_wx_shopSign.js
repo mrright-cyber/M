@@ -166,5 +166,5 @@ $.after = async function () {
     $.msg.push(`活动时间：${$.actTimeStr}`)
     $.msg.push(`\nexport M_WX_SHOP_SIGN_URL="${$.activityUrl}"`);
 }
-$.run({whitelist: ['1-5'], wait: [2000, 5000]}).catch(reason => $.log(reason));
+$.run({whitelist: ['1-5']}).catch(reason => $.log(reason));
 
