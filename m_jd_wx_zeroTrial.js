@@ -123,5 +123,5 @@ $.after = async function () {
     });
     $.msg.push(`\nexport M_WX_ZEROTRIAL_URL="${$.activityUrl}"`);
 }
-$.run({ whitelist: ['1-7'], wait: [1000, 2000] }).catch(reason => $.log(reason));
+$.run({ whitelist: ['1-5'], wait: [1000, 2000] }).catch(reason => $.log(reason));
 
