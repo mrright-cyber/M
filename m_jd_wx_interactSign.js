@@ -101,5 +101,5 @@ $.after = async function () {
     $.msg.push($.content.includes('先到先得') ? $.content.split('先到先得')[0] : $.content.split('奖品发放')[0] || $.content)
     $.msg.push(`\nexport M_INTERACT_SIGN_URL="${$.activityUrl}"`);
 }
-$.run({ whitelist: ['1-5'], wait: [2000, 5000] }).catch(reason => $.log(reason));
+$.run({ whitelist: ['1-5'] }).catch(reason => $.log(reason));
 
