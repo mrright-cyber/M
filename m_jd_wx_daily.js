@@ -104,4 +104,4 @@ $.after = async function () {
     $.msg.push(`开抢时间：${$.content.hours}:${$.content.minutes}`);
     $.msg.push(`\nexport M_WX_DAILY_URL="${$.activityUrl}"`);
 }
-$.run({ whitelist: ['1-5'] }).catch(reason => $.log(reason));
+$.run({ whitelist: ['1-7'] }).catch(reason => $.log(reason));
