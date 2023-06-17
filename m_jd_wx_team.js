@@ -8,7 +8,7 @@ if (mode) {
     $.activityUrl = `https://cjhydz-isv.isvjcloud.com/wxTeam/activity?activityId=665a302a3ac64b7da5122210c96bc41f`
 }
 //前n个号有机会成为队长
-let leaderNumber = parseInt(process.env.M_WX_TEAM_LEADER_NUM || 2)
+let leaderNumber = parseInt(process.env.M_WX_TEAM_LEADER_NUM || 3)
 //只跑豆子？1：2
 let onlyBean = parseInt(process.env.M_WX_TEAM_ONLY_BEAN || 2)
 //不组队的店铺
