@@ -56,9 +56,7 @@ process.env.M_WX_WHITELIST ? process.env.M_WX_WHITELIST.split(/[@,&|]/).forEach(
     : [];
 
 //无线不支持文件列表
-let wxWhitelistNotSupportFile = ['Invite', 'invite', 'm_jd_wx_collectCard.js', 'm_jd_wx_unPackDraw.js', 'm_jd_wx_team.js', 'm_jd_wx_opencard',
-    'm_jd_wx_microDz.js',
-    'm_jd_wx_share.js']
+let wxWhitelistNotSupportFile = ['Invite', 'invite', 'm_jd_wx_collectCard.js', 'm_jd_wx_unPackDraw.js', 'm_jd_wx_team.js', 'm_jd_wx_microDz.js', 'm_jd_wx_share.js', 'm_jd_wx_opencard']
 process.env.M_WX_WHITELIST_NOT_SUPPORT_FILE ? process.env.M_WX_WHITELIST_NOT_SUPPORT_FILE.split(/[@,&|]/).forEach(
     (item) => wxWhitelistNotSupportFile.push(item)) : '';
 
