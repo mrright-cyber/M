@@ -41,7 +41,7 @@ process.env.M_WX_STOP_KEYWORD ? process.env.M_WX_STOP_KEYWORD.split(/[@,&|]/).fo
 //是否打印地址信息
 let M_WX_ADDRESS_LOG = parseInt(process.env?.M_WX_ADDRESS_LOG || 2);
 //不填地址关键词,
-let addressStopKeywords = ['京豆', '红包', '券', '再来一次', '客服']
+let addressStopKeywords = ['京豆', '红包', '券', '再来一次', '客服', '晒单', '下单', '预订', '实付', '专享价', '优惠', '门店', '课程', '换新', '服务', '店铺券', '抵扣金', '鱼', '狗', '猫', '宠物', '防臭地漏', '在线直播', '抖音作品', '名片', '降敏', '肉苁蓉', '男用喷剂', '手抄报', '贴纸', '产后修复', '睫毛胶水', '孢子', '除臭', '鼻炎', '和田玉', '祛痘', '解酒', '戒烟', '小靓美', '脚气', '种子', '档案袋', '癣', '中年', '老太太', '妇女', '私处', '孕妇', '卫生巾', '卫生条', '肛门', '狐臭', '女性内衣', '女性内裤', '女内裤', '女内衣', '钢圈', '文胸', '电商', '女纯棉', '三角裤', '阴道炎', '宫颈', '糜烂', '打底裤', '肛塞', '课', '网校', '英语', '俄语', '四级', '六级', '四六级', '在线', '培训', '辅导', '教程', '题库', '流量卡']
 let addressStopKeywordsRule = ['下单满', "签收后", "收到货后", "成功购买任意", "必须购买店铺内"]
 process.env.M_WX_ADDRESS_STOP_KEYWORD ? process.env.M_WX_ADDRESS_STOP_KEYWORD.split(/[@,&|]/).forEach(
     (item) => addressStopKeywords.push(item))
