@@ -20,7 +20,6 @@ let isvObfuscatorRetryWait = parseInt(process.env?.M_WX_ISVOBFUSCATOR_RETRY_WAIT
 //模式
 let signMode = process.env.M_SIGN_MODE ? process.env.M_SIGN_MODE : "local"
 let apiToken = process.env.M_API_TOKEN ? process.env.M_API_TOKEN : ""
-console.log(`当前token M_API_TOKEN="${apiToken}"`)
 let apiSignUrl = process.env.M_API_SIGN_URL ? process.env.M_API_SIGN_URL : "http://ailoveu.eu.org:19840/sign"
 let apiScanSignUrl = process.env.M_API_SCAN_SIGN_URL ? process.env.M_API_SCAN_SIGN_URL : process.env.M_API_SIGN_URL
 let wskeyFile = process.env.M_WSKEY_FILE ? process.env.M_WSKEY_FILE : mode ? '/home/magic/Work/wools/doc/config.sh' : ''
