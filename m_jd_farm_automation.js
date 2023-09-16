@@ -1,7 +1,7 @@
 //20 5,12,21 * * * m_jd_farm_automation.js
 //问题反馈:https://t.me/Wall_E_Channel
 const {Env} = require('./magic');
-const $ = new Env('M农场自动化');
+const $ = new Env('京东农场兑换红包');
 let level = process.env.M_JD_FARM_LEVEL ? process.env.M_JD_FARM_LEVEL * 1 : 2
 $.log('默认种植2级种子，自行配置请配置 M_JD_FARM_LEVEL')
 $.logic = async function () {
