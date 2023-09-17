@@ -1,6 +1,6 @@
 let mode = __dirname.includes('magic')
 const { Env } = mode ? require('../magic') : require('./magic')
-const $ = new Env('M0元试用');
+const $ = new Env('M试用有礼');
 $.activityUrl = process.env.M_WX_ZEROTRIAL_URL
     ? process.env.M_WX_ZEROTRIAL_URL
     : '';
